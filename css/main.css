@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin: 0 ;
+	color:aliceblue
+}
+
+
+
+.container
+{
+	width: 14000px ;
+	height: 900px ;
+	background-color:antiquewhite ;
+}
+
+.noidung
+{
+	width: 2000px ;
+	height: 940px ;
+	background-color:chocolate ;
+	font-size: 30pt ;
+	float: left ;
+	padding: 100px ;
+	box-sizing: border-box ;
+	font-family: demofont01;
+}
+
+@font-face
+{
+	font-family: demofont01;
+	src: url("../font/static/Urbanist-Thin.ttf")
+}
+
+
+
+/* css menu */
+.btn {
+  border: none;
+  outline: none;
+  padding: 15px 94.97px;
+
+  background-color:#F4AE69;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+
+#myDIV
+{
+	position: fixed 
+}
+
+
+
+
+
+.form
+{
+	width: 56%;
+	height: 500px;
+	background-color: white;
+	padding: 100px;
+	box-sizing: border-box;
+	
+}
+
+.form input
+{
+	width: 300px ;
+	height: 30px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 1px solid #726F6F;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.nd
+{
+	width: 93%;
+	height: 660px;
+	background-color:#F4AE69;
+	padding: 60px;
+	box-sizing: border-box;
+	
+}
+
+.nd01
+{
+	width: 50%;
+	height: 535px;
+	background-color: wheat;
+	float: left;
+}
+
+
+.nd011
+{
+	width: 30%;
+	height: 535px;
+	background-color: tomato;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.nd012
+{
+	width: 70%;
+	height: 535px;
+	background-color: darkmagenta;
+	float: right;
+}
+
+.nd013
+{
+	width: 100%;
+	height: 267.5px;
+	background-color: brown;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.nd014
+{
+	width: 60%;
+	height: 267.5px;
+	background-color: maroon;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.nd015
+{
+	width: 40%;
+	height: 267.5px;
+	background-color: bisque;
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+
+.nd02
+{
+	width: 50%;
+	height: 535px;
+	background-color: wheat;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.nd011 img
+{
+	transition: all 0.4s linear;
+	transform: scale(1);
+}
+.nd011:hover img
+{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+.nd013 img
+{
+	transition: all 0.4s linear;
+	transform: scale(1);
+}
+.nd013:hover img
+{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+.nd014 img
+{
+	transition: all 0.4s linear;
+	transform: scale(1);
+}
+.nd014:hover img
+{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+.nd015 img
+{
+	transition: all 0.4s linear;
+	transform: scale(1);
+}
+.nd015:hover img
+{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+.nd02 img
+{
+	transition: all 0.4s linear;
+	transform: scale(1);
+}
+.nd02:hover img
+{
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+.lable
+{
+	width: 45%;
+	height: 50px;
+	background-color:#DB5709;
+	position: absolute;
+	top: 45%;
+	left: 27.5%;
+}
+
+.nd02 .lable
+{
+	opacity: 0;
+	transition: all 0.4s ease-out;
+	transform: scale(0);
+}
+
+.nd02:hover .lable
+{
+	opacity: 1;
+	transform: scale(1.5);
+}
+
+.nd011 .lable
+{
+	opacity: 0;
+	transition: all 0.4s ease-out;
+	transform: scale(0);
+}
+
+.nd011:hover .lable
+{
+	opacity: 1;
+	transform: scale(1.5);
+}
+
+.nd013 .lable
+{
+	opacity: 0;
+	transition: all 0.4s ease-out;
+	transform: scale(0);
+}
+
+.nd013:hover .lable
+{
+	opacity: 1;
+	transform: scale(1.5);
+}
+
+.nd014 .lable
+{
+	opacity: 0;
+	transition: all 0.4s ease-out;
+	transform: scale(0);
+}
+
+.nd014:hover .lable
+{
+	opacity: 1;
+	transform: scale(1.5);
+}
+
+.nd015 .lable
+{
+	opacity: 0;
+	transition: all 0.4s ease-out;
+	transform: scale(0);
+}
+
+.nd015:hover .lable
+{
+	opacity: 1;
+	transform: scale(1.5);
+}
+
+.pic
+{
+	width:30.8%;
+	height: 345px;
+	background-color: antiquewhite;
+	float: left;
+	overflow: hidden;
+
+}
+
+.pic1
+{
+	width: 30.8%;
+	height:345px;
+	background-color: antiquewhite;
+	float: left;
+	overflow: hidden;
+
+}
+
+.pic2
+{
+	width:30.8%;
+	height: 345px;
+	background-color: antiquewhite;
+	float: left;
+	overflow: hidden;
+	
+
+}
+
+
